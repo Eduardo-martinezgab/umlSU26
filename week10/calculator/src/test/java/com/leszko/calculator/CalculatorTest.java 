@@ -1,0 +1,25 @@
+package com.leszko.calculator;
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+
+public class CalculatorTest {
+
+    @Test
+    public void positiveNumbers() {
+        Calculator calc = new Calculator();
+        assertEquals(5, calc.sum(2, 3));
+    }
+
+    @Test
+    public void zero() {
+        Calculator calc = new Calculator();
+        assertEquals(4, calc.sum(4, 0));
+    }
+
+    @Test
+    public void negativeNumbers() {
+        Calculator calc = new Calculator();
+        assertEquals(-3, calc.sum(-1, -2));
+    }
+}
