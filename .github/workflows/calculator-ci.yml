@@ -22,7 +22,7 @@ jobs:
 
       - name: Run unit tests
         working-directory: week10/calculator
-        run: ./gradlew test
+        run: ./gradlew test --info
 
   build-and-test:
     needs: unit-test
