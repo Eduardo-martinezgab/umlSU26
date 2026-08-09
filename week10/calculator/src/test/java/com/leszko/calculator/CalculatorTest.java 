@@ -14,7 +14,7 @@ public class CalculatorTest {
     @Test
     public void zero() {
         Calculator calc = new Calculator();
-        assertEquals(4, calc.sum(4, 1));
+        assertEquals(7, calc.sum(4, 1));
     }
 
     @Test
