@@ -111,7 +111,6 @@ docker compose -f cluster-compose.yml -p w10 up -d
 docker compose -f cluster-compose.yml -p w10 down
 ```
 
-
 Run this on its own — tear down the single-broker lab first (both want port 9092).
 
 ## Teardown
